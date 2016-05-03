@@ -1,0 +1,34 @@
+default_unit_kinds: &default_unit_kinds
+  unitless:
+    name: unitless
+    unit: count
+  weight:
+    METRIC:
+      name: kilogram
+      unit: kg
+    STANDARD:
+      name: pound
+      unit: lb
+  length:
+    METRIC:
+      name: centimeter
+      unit: cm
+    STANDARD:
+      name: inch
+      unit: in
+
+test:
+  unit_kinds:
+    <<: *default_unit_kinds
+
+development:
+  unit_kinds:
+    <<: *default_unit_kinds
+
+staging:
+  unit_kinds:
+    <<: *default_unit_kinds
+
+production:
+  unit_kinds:
+    <<: *default_unit_kinds

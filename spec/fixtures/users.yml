@@ -1,0 +1,31 @@
+foo:
+  id: 208889123
+  email: foo@bar.com
+  username: foo_fs1
+  encrypted_password: <%= User.new.send(:password_digest, '1qaz!QAZ') %>
+  confirmed_at: <%= Time.now %>
+  authentication_token: <%= User.authentication_token %>
+
+bar:
+  id: 208889111
+  email: bar@bar.com
+  username: bar_fs1
+  encrypted_password: <%= User.new.send(:password_digest, '1qaz!QAZ') %>
+  confirmed_at: <%= Time.now %>
+  authentication_token: <%= User.authentication_token %>
+
+baz:
+  id: 208889112
+  email: baz@bar.com
+  username: baz_fs1
+  encrypted_password: <%= User.new.send(:password_digest, '1qaz!QAZ') %>
+  confirmed_at: <%= Time.now %>
+  authentication_token: <%= User.authentication_token %>
+
+qux:
+  id: 208889113
+  email: qux@bar.com
+  username: qux_fs1
+  encrypted_password: <%= User.new.send(:password_digest, '1qaz!QAZ') %>
+  confirmed_at: <%= Time.now %>
+  authentication_token: <%= User.authentication_token %>

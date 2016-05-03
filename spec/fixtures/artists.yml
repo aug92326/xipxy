@@ -1,0 +1,17 @@
+foo:
+  brand: "Foo Artist"
+  country: USA
+  founded: 1877
+  closed: 1977
+
+bar:
+  brand: "Bar Artist"
+  country: Rissia
+  founded: 1655
+  closed: 1755
+
+baz:
+  brand: "Foo Artist"
+  country: Germany
+  founded: 1913
+  closed: 2013

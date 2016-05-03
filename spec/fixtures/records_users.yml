@@ -1,0 +1,9 @@
+foo_onwer:
+  record: foo
+  user: foo
+  owner: true
+
+foo:
+  record: foo
+  user: bar
+  owner: true

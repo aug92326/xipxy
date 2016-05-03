@@ -1,0 +1,7 @@
+foo:
+  user: foo
+  name: test collection 1
+
+bar:
+  user: foo
+  name: test collection 2

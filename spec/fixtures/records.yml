@@ -1,0 +1,11 @@
+foo:
+  model: USA
+
+bar:
+  model: RUS
+
+foo_1:
+  model: USA1
+
+foo_2:
+  model: USA2

@@ -1,0 +1,7 @@
+foo:
+  records_collection: foo
+  record: foo
+
+foo:
+  records_collection: foo
+  record: bar
